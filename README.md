@@ -1,7 +1,11 @@
 # Interactors
 
-Code Kata: Experiment on creating memoization base class.
+Experiment on creating memoization class.
 
+# install
 
+bundle install
 
+# run rspecs
 
+bundle exec rspec

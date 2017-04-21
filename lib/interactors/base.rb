@@ -10,6 +10,8 @@ module Interactors
       @results[args.hash] ||= do_it(*args)
     end
 
+    protected
+
     # child must override this method
     def do_it(*args)
       fail NotImplementedError

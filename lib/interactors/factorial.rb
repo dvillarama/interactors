@@ -1,6 +1,7 @@
 module Interactors
   class Factorial < Base
     protected
+    # The recursive solution to Factorial
     def do_it(number)
       raise 'No negative numbers please' if number < 0
       if (number == 0)
